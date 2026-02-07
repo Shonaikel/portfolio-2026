@@ -1,0 +1,137 @@
+.contact-section {
+    position: relative;
+    padding: 8rem 1.5rem;
+    background: #1a1a1a;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* Texto grande de fondo */
+  .contact-bg-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(4rem, 10vw, 9rem);
+    font-weight: 900;
+    color: #8ff51b;
+    opacity: 0.25;
+    letter-spacing: 4px;
+    line-height: 1;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  /* Card */
+  .contact-card {
+    position: relative;
+    z-index: 2;
+    max-width: 520px;
+    margin: 0 auto;
+    background: #3c3c3c;
+    color: #fff;
+    padding: 2.5rem;
+    border-radius: 22px;
+    box-shadow: 0 25px 60px rgba(0,0,0,.25);
+  }
+  
+  .contact-email {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #8ff51b;
+    margin-bottom: 1rem;
+    text-decoration: none;
+  }
+
+  .contact-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-card h3 span {
+    color: #8ff51b;
+  }
+  
+  /* Input */
+  .contact-input {
+    display: flex;
+    background: #2c2c2c;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 1.8rem;
+  }
+  
+  .contact-input input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 0.8rem 1.2rem;
+    color: #fff;
+    outline: none;
+  }
+  
+  .contact-input button {
+    background: #8ff51b;
+    border: none;
+    padding: 0 1.5rem;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  /* Links */
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-links a {
+    color: #ddd;
+    text-decoration: none;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-links i {
+    color: #8ff51b;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

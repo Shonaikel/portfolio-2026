@@ -1,0 +1,32 @@
+.skills-section {
+  padding: 47px 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.skill {
+  padding: 10px 20px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 530;
+  cursor: pointer;
+  user-select: none;
+  transition: 
+    text-shadow 0.3s ease,
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+/* ✨ Glow verde */
+.skill:hover {
+
+  text-shadow:
+    0 0 40px #8ff51b,
+    0 0 22px rgba(143, 245, 27, 0.5);
+  color: #8ff51b;
+}
